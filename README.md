@@ -1,83 +1,78 @@
 # Real Estate Investment Analyzer
 
+AI-powered intelligent textbook for real estate investment analysis and portfolio strategy.
+
 [![GitHub Pages](https://img.shields.io/badge/docs-live-brightgreen)](https://yarmoluk.github.io/real-estate-investment-analyzer/)
 [![Built with MkDocs Material](https://img.shields.io/badge/Built%20with-MkDocs%20Material-526CFE)](https://squidfunk.github.io/mkdocs-material/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-A comprehensive guide to real estate investment analysis, covering fundamental metrics like cap rates and cash flow, advanced strategies like the BRRRR method, and portfolio scaling techniques.
+## Overview
 
-## Live Site
+Comprehensive AI expert system covering real estate investment analysis from fundamental metrics through advanced portfolio scaling strategies. Includes worked numerical examples for cap rate analysis, cash flow modeling, BRRRR deal evaluation, and tax optimization — the quantitative tools used by active real estate investors.
 
-**[View the Guide](https://yarmoluk.github.io/real-estate-investment-analyzer/)**
+**[View the Live Site](https://yarmoluk.github.io/real-estate-investment-analyzer/)**
 
-## Features
+## Capabilities
 
-- **7 comprehensive chapters** from investment fundamentals through portfolio scaling
-- **47 glossary terms** covering real estate investment terminology
-- **18 FAQs** addressing common investor questions
-- **20 authoritative references** including industry standards and academic research
-- **Worked numerical examples** demonstrating key calculations and analysis methods
-- **Practical frameworks** for property evaluation, financing, and tax strategy
+### Financial Analysis
+- NOI, cap rate, cash-on-cash return, GRM, DSCR, IRR, and equity multiple calculations
+- Worked quadplex example carried across all metrics for direct comparison
+- Expense ratio benchmarks by property type
 
-## Chapters
+### Investment Strategies
+- Buy-and-hold, fix-and-flip, wholesale strategy comparison
+- Complete BRRRR method walkthrough with full financial case study
+- Financing analysis: conventional, FHA/VA, commercial, hard money, seller financing
+- Creative techniques: subject-to, lease options, seller carryback
 
-| Chapter | Topic |
-|---------|-------|
+### Portfolio Scaling
+- 1031 exchange mechanics with worked tax deferral example ($39,954 saved)
+- Cost segregation and accelerated depreciation strategies
+- Entity structuring (LLC, S-Corp, LP) for liability and tax optimization
+- Syndication fundamentals and REIT comparison
+
+### Reference Architecture
+- 47 glossary terms covering real estate investment terminology
+- 18 FAQs from basic ("What is a cap rate?") to advanced (cost segregation studies)
+- 20 references including BiggerPockets, Investopedia, and IRS publications
+- 14+ financial tables with worked examples
+
+## Content Scope
+
+| Chapter | Domain |
+|---------|--------|
 | 1 | Real Estate Investment Fundamentals |
-| 2 | Property Valuation and Analysis |
-| 3 | Cash Flow Analysis |
-| 4 | Financing Strategies |
+| 2 | Market Analysis and Property Evaluation |
+| 3 | Financial Metrics — Cap Rate, NOI, Cash-on-Cash |
+| 4 | Financing Strategies and Leverage |
 | 5 | The BRRRR Method |
-| 6 | Tax Strategy and Benefits |
-| 7 | Portfolio Management and Scaling |
+| 6 | Property Management and Operations |
+| 7 | Tax Strategy and Portfolio Scaling |
+
+## Results
+
+- 15,500+ words of professional-depth investment analysis content
+- 14+ financial tables with worked numerical examples throughout
+- Covers fundamentals through advanced tax strategy and syndication
+- Built without real estate investing or finance background
 
 ## Technology Stack
 
-- **MkDocs Material** - Modern documentation framework
-- **Python** - Site generation and tooling
-- **Markdown** - Content authoring
-- **GitHub Pages** - Hosting and deployment
-- **Mermaid.js** - Interactive diagrams and visualizations
+- Claude AI with structured domain knowledge extraction
+- MkDocs Material with custom dark theme
+- Mermaid.js property type and strategy diagrams
+- GitHub Pages deployment
 
-## Getting Started
+## Note on IP Protection
 
-### Prerequisites
+This repository contains the published educational content. The underlying knowledge architecture, content generation methodology, and system design patterns are proprietary.
 
-- Python 3.8 or higher
-- pip (Python package manager)
+## Contact
 
-### Local Development
+**Daniel Yarmoluk**
+AI Transformation Leader
+[LinkedIn](https://www.linkedin.com/in/danyarmoluk/)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Yarmoluk/real-estate-investment-analyzer.git
-   cd real-estate-investment-analyzer
-   ```
+---
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Serve locally:
-   ```bash
-   mkdocs serve
-   ```
-
-4. Open your browser to `http://127.0.0.1:8000`
-
-### Building the Site
-
-```bash
-mkdocs build
-```
-
-The static site will be generated in the `site/` directory.
-
-## License
-
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-## Repository
-
-GitHub: [https://github.com/Yarmoluk/real-estate-investment-analyzer](https://github.com/Yarmoluk/real-estate-investment-analyzer)
+*Demonstrating AI expert system development across any domain — from zero real estate investing experience to comprehensive investment analysis reference.*
