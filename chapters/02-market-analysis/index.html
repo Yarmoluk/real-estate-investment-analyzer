@@ -1,0 +1,1729 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A practical guide to real estate investment analysis including cap rates, cash flow modeling, and the BRRRR method.">
+      
+      
+        <meta name="author" content="Daniel Yarmoluk">
+      
+      
+        <link rel="canonical" href="https://yarmoluk.github.io/real-estate-investment-analyzer/chapters/02-market-analysis/">
+      
+      
+        <link rel="prev" href="../01-investment-fundamentals/">
+      
+      
+        <link rel="next" href="../03-financial-metrics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Content - Real Estate Investment Analyzer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-2-market-analysis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Real Estate Investment Analyzer" class="md-header__button md-logo" aria-label="Real Estate Investment Analyzer" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Real Estate Investment Analyzer
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Content
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Yarmoluk/real-estate-investment-analyzer" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Real Estate Investment Analyzer" class="md-nav__button md-logo" aria-label="Real Estate Investment Analyzer" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Real Estate Investment Analyzer
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Yarmoluk/real-estate-investment-analyzer" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../01-investment-fundamentals/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Real Estate Investment Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Market Analysis and Property Evaluation
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Market Analysis and Property Evaluation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../03-financial-metrics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Financial Metrics — Cap Rate, NOI, Cash-on-Cash
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../04-financing-strategies/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Financing Strategies and Leverage
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../05-brrrr-method/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. The BRRRR Method
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../06-property-management/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Property Management and Operations
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../07-tax-strategy-and-scaling/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Tax Strategy and Portfolio Scaling
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-research-methodology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Market Research Methodology
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#economic-indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Economic Indicators
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Economic Indicators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#employment-growth-and-diversity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Employment Growth and Diversity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#population-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Population Growth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#economic-output-and-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Economic Output and Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#demographic-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demographic Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Demographic Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#household-composition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Household Composition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#income-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Income Levels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#education-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Education Levels
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supply-and-demand-dynamics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply and Demand Dynamics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supply and Demand Dynamics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#supply-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demand-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demand Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparable-sales-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparable Sales Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparable Sales Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#residential-comps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Residential Comps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commercial-comps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Commercial Comps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neighborhood-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neighborhood Evaluation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Neighborhood Evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#physical-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#economic-indicators_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Economic Indicators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#development-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development Activity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#future-catalysts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Catalysts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emerging-market-identification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Emerging Market Identification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Sources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Sources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#free-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paid-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paid Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qualitative-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qualitative Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    2. Market Analysis and Property Evaluation
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/Yarmoluk/real-estate-investment-analyzer/edit/main/docs/chapters/02-market-analysis/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="chapter-2-market-analysis">Chapter 2: Market Analysis<a class="headerlink" href="#chapter-2-market-analysis" title="Permanent link">&para;</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The adage "location, location, location" captures the fundamental truth that real estate value is inextricably tied to geographic factors. Two identical properties located in different markets can command vastly different rents, appreciation rates, and risk profiles. Successful investors distinguish themselves not through their ability to find properties—those are plentiful—but through their ability to identify markets and neighborhoods positioned for growth.</p>
+<p>Market analysis is the systematic evaluation of economic, demographic, and supply-demand factors that drive real estate performance. This chapter provides a framework for conducting thorough market research, identifying leading and lagging indicators, and recognizing emerging opportunities before they become consensus trades.</p>
+<h2 id="market-research-methodology">Market Research Methodology<a class="headerlink" href="#market-research-methodology" title="Permanent link">&para;</a></h2>
+<p>Effective market analysis follows a structured approach from macro to micro levels:</p>
+<ol>
+<li><strong>National/Regional Trends</strong> - Identify broad economic and demographic shifts affecting real estate demand</li>
+<li><strong>Metropolitan Market Selection</strong> - Evaluate metro areas based on job growth, population trends, and economic diversity</li>
+<li><strong>Submarket Analysis</strong> - Within chosen metros, identify specific submarkets with favorable characteristics</li>
+<li><strong>Neighborhood Evaluation</strong> - Assess individual neighborhoods for property acquisition</li>
+<li><strong>Property-Level Analysis</strong> - Evaluate specific properties within target neighborhoods</li>
+</ol>
+<p>This funnel approach ensures resources are devoted to detailed analysis only for properties in markets that meet fundamental criteria.</p>
+<div class="admonition note">
+<p class="admonition-title">Research Time Allocation</p>
+<p>Experienced investors spend more time on market selection than property selection. A mediocre property in an excellent market typically outperforms an excellent property in a mediocre market.</p>
+</div>
+<h2 id="economic-indicators">Economic Indicators<a class="headerlink" href="#economic-indicators" title="Permanent link">&para;</a></h2>
+<p>Economic health drives real estate demand. Key indicators include:</p>
+<h3 id="employment-growth-and-diversity">Employment Growth and Diversity<a class="headerlink" href="#employment-growth-and-diversity" title="Permanent link">&para;</a></h3>
+<p><strong>Job creation</strong> is the primary driver of housing demand and rent growth. Markets consistently adding jobs attract new residents who need housing. Examine:</p>
+<ul>
+<li><strong>Job growth rate</strong> - Compare to national average; markets growing 2%+ annually are strong</li>
+<li><strong>Unemployment rate</strong> - Below national average indicates economic health</li>
+<li><strong>Industry diversity</strong> - Markets dependent on single industries face concentration risk</li>
+<li><strong>Wage growth</strong> - Rising wages support rent increases and homeownership</li>
+</ul>
+<p>Data sources: Bureau of Labor Statistics (BLS), state economic development agencies, metro chamber of commerce reports.</p>
+<h3 id="population-growth">Population Growth<a class="headerlink" href="#population-growth" title="Permanent link">&para;</a></h3>
+<p><strong>Population increases</strong> signal housing demand expansion. Evaluate:</p>
+<ul>
+<li><strong>Net migration</strong> - In-migration from other states/countries indicates market attractiveness</li>
+<li><strong>Natural increase</strong> - Birth rates minus death rates</li>
+<li><strong>Age demographics</strong> - Markets attracting 25-40 year-olds (household formation years) are favorable</li>
+</ul>
+<p>Declining population markets can offer value but require caution as demand headwinds are structural.</p>
+<h3 id="economic-output-and-development">Economic Output and Development<a class="headerlink" href="#economic-output-and-development" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Gross Metropolitan Product (GMP)</strong> - Total economic output; consistent growth indicates prosperity</li>
+<li><strong>Construction permits</strong> - Leading indicator of future supply; excessive permits may signal oversupply risk</li>
+<li><strong>Capital investment</strong> - Corporate headquarters relocations, major employer expansions, infrastructure projects</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Lagging vs. Leading Indicators</p>
+<p>Median home prices and rent levels are lagging indicators—they reflect past conditions. Job growth, migration patterns, and construction permits are leading indicators that help predict future performance.</p>
+</div>
+<h2 id="demographic-analysis">Demographic Analysis<a class="headerlink" href="#demographic-analysis" title="Permanent link">&para;</a></h2>
+<p>Demographics reveal who lives in a market and what their housing needs are.</p>
+<h3 id="household-composition">Household Composition<a class="headerlink" href="#household-composition" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Household size</strong> - Larger households favor single-family homes; smaller households support multifamily</li>
+<li><strong>Owner vs. renter rates</strong> - High ownership rates may limit rental demand; high rental rates create opportunities</li>
+<li><strong>Age distribution</strong> - Different life stages require different housing types</li>
+</ul>
+<h3 id="income-levels">Income Levels<a class="headerlink" href="#income-levels" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Median household income</strong> - Determines affordability and rent ceiling</li>
+<li><strong>Income distribution</strong> - Markets with growing high-income segments support premium rentals</li>
+<li><strong>Poverty rate</strong> - High poverty concentrations require careful neighborhood selection</li>
+</ul>
+<h3 id="education-levels">Education Levels<a class="headerlink" href="#education-levels" title="Permanent link">&para;</a></h3>
+<p>Education correlates strongly with income stability and rent payment reliability. Markets with high college attainment rates typically exhibit lower volatility.</p>
+<h2 id="supply-and-demand-dynamics">Supply and Demand Dynamics<a class="headerlink" href="#supply-and-demand-dynamics" title="Permanent link">&para;</a></h2>
+<p>Real estate values result from the interaction of supply and demand. Favorable markets exhibit:</p>
+<p><strong>Strong Demand Drivers:</strong>
+- Job and population growth creating new household formation
+- Limited land availability constraining supply
+- Quality of life amenities attracting residents
+- Pro-development policies encouraging economic activity</p>
+<p><strong>Constrained Supply:</strong>
+- Geographic constraints (water, mountains, regulations)
+- Strict zoning and permitting processes
+- High construction costs limiting new development
+- Low construction pipeline relative to demand</p>
+<h3 id="supply-analysis">Supply Analysis<a class="headerlink" href="#supply-analysis" title="Permanent link">&para;</a></h3>
+<p>Examine:
+- <strong>Absorption rate</strong> - How quickly new inventory is leased/sold
+- <strong>Construction pipeline</strong> - Permitted and under-construction units
+- <strong>Vacancy rates</strong> - Overall market and by property class
+- <strong>Demolition and obsolescence</strong> - Units leaving the market</p>
+<p><strong>Healthy Market Indicators:</strong>
+- Multifamily vacancy 5-7%
+- Single-family vacancy under 2%
+- Absorption exceeding new deliveries
+- Limited construction pipeline</p>
+<h3 id="demand-analysis">Demand Analysis<a class="headerlink" href="#demand-analysis" title="Permanent link">&para;</a></h3>
+<p>Evaluate:
+- <strong>Household formation rate</strong> - New households created annually
+- <strong>In-migration trends</strong> - People moving to the market
+- <strong>Employment growth</strong> - Jobs attracting workers
+- <strong>Affordability metrics</strong> - Rent-to-income and price-to-income ratios</p>
+<p>Markets where demand consistently exceeds supply exhibit rising rents and property values.</p>
+<h2 id="comparable-sales-analysis">Comparable Sales Analysis<a class="headerlink" href="#comparable-sales-analysis" title="Permanent link">&para;</a></h2>
+<p>Comparable sales analysis (comps) establishes market value by examining recent transactions of similar properties.</p>
+<h3 id="residential-comps">Residential Comps<a class="headerlink" href="#residential-comps" title="Permanent link">&para;</a></h3>
+<p>Select comparables based on:
+- <strong>Location</strong> - Within 0.5 miles; same neighborhood
+- <strong>Property type</strong> - Same bedroom/bathroom count, similar square footage (within 10-15%)
+- <strong>Age and condition</strong> - Similar construction era and condition class
+- <strong>Timing</strong> - Sales within past 3-6 months
+- <strong>Transaction type</strong> - Arms-length sales (exclude foreclosures, family sales)</p>
+<p>Adjust for differences:
+- Location premiums (corner lots, cul-de-sacs, busy streets)
+- Upgrades and finishes
+- Lot size and features
+- Condition differences</p>
+<h3 id="commercial-comps">Commercial Comps<a class="headerlink" href="#commercial-comps" title="Permanent link">&para;</a></h3>
+<p>Commercial properties require income-approach analysis (covered in Chapter 3) but comparables inform:
+- Prevailing cap rates by property class
+- Price per unit or square foot
+- Market rental rates</p>
+<div class="admonition tip">
+<p class="admonition-title">MLS Access</p>
+<p>Multiple Listing Service (MLS) access provides the most comprehensive comp data. If you lack direct access, partner with a real estate agent or use platforms like Zillow, Redfin, or Realtor.com, though these have more limited historical data.</p>
+</div>
+<h2 id="neighborhood-evaluation">Neighborhood Evaluation<a class="headerlink" href="#neighborhood-evaluation" title="Permanent link">&para;</a></h2>
+<p>Within target markets, drill down to specific neighborhoods. Evaluate:</p>
+<h3 id="physical-characteristics">Physical Characteristics<a class="headerlink" href="#physical-characteristics" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>School quality</strong> - Major driver of demand and property values</li>
+<li><strong>Crime rates</strong> - Use local police data and platforms like NeighborhoodScout</li>
+<li><strong>Walkability and amenities</strong> - Parks, retail, restaurants, transit access</li>
+<li><strong>Property maintenance</strong> - Condition of surrounding homes indicates pride of ownership</li>
+<li><strong>Traffic and noise</strong> - Proximity to highways, industrial areas, airports</li>
+</ul>
+<h3 id="economic-indicators_1">Economic Indicators<a class="headerlink" href="#economic-indicators_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Median home values</strong> - Understanding the price point</li>
+<li><strong>Rent levels</strong> - Determining achievable rents</li>
+<li><strong>Days on market</strong> - Liquidity indicator; sub-30 days is strong</li>
+<li><strong>Price trends</strong> - Year-over-year appreciation rates</li>
+</ul>
+<h3 id="development-activity">Development Activity<a class="headerlink" href="#development-activity" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>New construction</strong> - Indicates market confidence but may signal oversupply</li>
+<li><strong>Renovations</strong> - Homes being improved suggests gentrification</li>
+<li><strong>Commercial investment</strong> - New retail, restaurants signal economic vitality</li>
+</ul>
+<h3 id="future-catalysts">Future Catalysts<a class="headerlink" href="#future-catalysts" title="Permanent link">&para;</a></h3>
+<p>Look for neighborhoods positioned for improvement:
+- Planned infrastructure (transit extensions, highway improvements)
+- Zoning changes allowing higher density
+- Adjacency to established, expensive neighborhoods
+- Early signs of gentrification (coffee shops, breweries, young professionals)</p>
+<div class="admonition success">
+<p class="admonition-title">Path of Progress</p>
+<p>Real estate growth follows predictable patterns. Identify the direction of growth in a metro area and invest in the path of progress. As expensive neighborhoods appreciate beyond affordability, demand spills into adjacent areas.</p>
+</div>
+<h2 id="emerging-market-identification">Emerging Market Identification<a class="headerlink" href="#emerging-market-identification" title="Permanent link">&para;</a></h2>
+<p>Emerging markets offer the highest risk-adjusted returns but require diligent research. Characteristics of emerging markets:</p>
+<p><strong>Early Indicators:</strong>
+- Population growth exceeding national average by 1-2%
+- Job growth in high-wage industries (tech, healthcare, finance)
+- Net in-migration from expensive coastal markets
+- Low cost of living attracting remote workers
+- Pro-business policies and low tax burden</p>
+<p><strong>Confirmation Signals:</strong>
+- National media coverage and "best places" rankings
+- Corporate relocations and expansions
+- Venture capital and startup activity
+- Real estate investor interest (from local agents and forums)</p>
+<p><strong>Markets to Avoid:</strong>
+- Declining population and job losses
+- Single-industry dependence with secular headwinds (e.g., coal mining)
+- Excessive construction relative to demand
+- Regulatory hostility toward landlords (strict rent control, tenant protections making evictions difficult)</p>
+<h2 id="data-sources">Data Sources<a class="headerlink" href="#data-sources" title="Permanent link">&para;</a></h2>
+<p>Effective market analysis requires accessing multiple data sources:</p>
+<h3 id="free-resources">Free Resources<a class="headerlink" href="#free-resources" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>U.S. Census Bureau</strong> - Demographic data, population trends</li>
+<li><strong>Bureau of Labor Statistics</strong> - Employment data by metro area</li>
+<li><strong>Federal Reserve Economic Data (FRED)</strong> - Economic indicators, housing data</li>
+<li><strong>City-Data.com</strong> - Comprehensive neighborhood statistics</li>
+<li><strong>Local government websites</strong> - Zoning, permits, assessments</li>
+</ul>
+<h3 id="paid-resources">Paid Resources<a class="headerlink" href="#paid-resources" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>CoStar</strong> - Commercial real estate data platform</li>
+<li><strong>Real Capital Analytics</strong> - Transaction data</li>
+<li><strong>RealtyTrac</strong> - Distressed properties and market analytics</li>
+<li><strong>Mashvisor</strong> - Rental analysis and neighborhood insights</li>
+</ul>
+<h3 id="qualitative-research">Qualitative Research<a class="headerlink" href="#qualitative-research" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Local real estate agents</strong> - On-the-ground market intelligence</li>
+<li><strong>Property managers</strong> - Rent trends, tenant demand, vacancy rates</li>
+<li><strong>City planning departments</strong> - Upcoming developments, infrastructure plans</li>
+<li><strong>Local news</strong> - Economic developments, employer changes</li>
+<li><strong>Real estate forums</strong> - BiggerPockets, Reddit r/realestateinvesting</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Boots on the Ground</p>
+<p>No amount of data replaces physically visiting a market. Drive neighborhoods, talk to residents, observe traffic patterns, and evaluate property conditions. Successful out-of-state investors visit markets multiple times before investing.</p>
+</div>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Market analysis is the foundation of successful real estate investing. By systematically evaluating economic indicators, demographic trends, supply-demand dynamics, and neighborhood characteristics, investors can identify markets positioned for growth. Combining quantitative data with qualitative observations creates a comprehensive understanding of where to deploy capital. The next chapter will provide the financial metrics to evaluate specific properties within your target markets.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../01-investment-fundamentals/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../03-financial-metrics/" class="md-footer__link md-footer__link--next" aria-label="Next: Content">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Daniel Yarmoluk | All rights reserved.
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Yarmoluk/real-estate-investment-analyzer" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+    
+  </body>
+</html>
